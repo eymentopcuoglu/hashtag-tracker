@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-consumer-elasticsearch",
+  "version": "1.0.0",
+  "description": "A Kafka consumer to write the data to Elasticsearch",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eymen Topcuoglu",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.12.0",
+    "kafkajs": "^1.15.0"
+  }
+}
